@@ -12,7 +12,7 @@ def call(String buildStatus = 'STARTED', String channel = '#jenkins') {
 
   // buildStatus of null means successfull
   buildStatus = buildStatus ?: 'SUCCESSFUL'
-  channel = channel ?: '#jenkins'
+  channel = channel ?: '#jenkins-sonar'
 
 
   // Default values
